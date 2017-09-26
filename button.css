@@ -1,0 +1,88 @@
+/*。。。。。。。按钮样式。。。。。。。。*/
+/*按钮基础样式*/
+.pa-btn{
+  width: 98px;
+  height: 37px;
+  font-size: 0.8rem;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+/*圆角按钮*/
+.pa-radius{
+  border-radius: 2px;
+}
+/*椭圆按钮*/
+.pa-round{
+  border-radius: 1000px;
+}
+/*蓝色按钮*/
+.pa-btn-primary{
+  color: #fff;
+  background-color: #0e90d2;
+  border-color: #0e90d2;
+}
+.pa-btn-primary:hover{
+  background-color: #0c79b1;
+}
+/*浅蓝色按钮*/
+.pa-btn-secondary{
+  color: #fff;
+  background-color: #3bb4f2;
+  border-color: #3bb4f2;
+}
+.pa-btn-secondary:hover{
+  background-color: #19a7f0;
+}
+/*绿色按钮*/
+.pa-btn-success{
+  color: #fff;
+  background-color: #5eb95e;
+  border-color: #5eb95e;
+}
+.pa-btn-success:hover{
+  background-color: #4aaa4a;
+}
+/*橙色按钮*/
+.pa-btn-warning{
+  color: #fff;
+  background-color: #F37B1D;
+  border-color: #F37B1D;
+}
+.pa-btn-warning:hover{
+  background-color: red
+}
+/*红色按钮*/
+.pa-btn-danger{
+  color: #fff;
+  background-color: #dd514c;
+  border-color: #dd514c;
+}
+.pa-btn-danger:hover{
+  background-color: #d7342e;
+}
+/*。。。。。。。按钮状态。。。。。。。。*/
+/*按钮处于禁用状态*/
+.pa-disabled{
+  pointer-events: none;
+  border-color: transparent;
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+/*。。。。。。。按钮大小。。。。。。。。*/
+.pa-btn-xl{
+  width: 114px;
+  height: 46px;
+}
+.pa-btn-lg{
+  width: 106px;
+  height: 41px;
+}
+.pa-btn-sm{
+  width:89px;
+  height: 32px;
+}
+.pa-btn-xs{
+  width:71px;
+  height: 28px;
+}
